@@ -3,14 +3,16 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Header from './components/header/header';
+import MainContent from './components/main_content/main_content';
 
-import Body  from './components/body/body';
-import Video  from './components/video_page/video';
-import Slideshow  from './components/slideshow/slideshow';
+// the pages of the site that will change.
+// import Home from '/home';
+// import Feature  from './components/feature/feature';
+// import About from '';
 
 import Footer  from './components/footer/footer';
 
-import { Link, Route, Switch } from 'react-router-dom';
+// import { Link, Route, Switch } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -18,7 +20,7 @@ class App extends Component {
       <div className="App">
       
       <Header />
-      <Body />
+      <MainContent />
       <Footer />
 
 
