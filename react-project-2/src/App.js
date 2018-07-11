@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 // import logo from './logo.svg';
 import './App.css';
 
+
+
 import Header from './components/header/header';
 import MainContent from './components/main_content/main_content';
 
@@ -19,6 +21,7 @@ class App extends Component {
     return (
       <div className="App">
       
+      <div><p className="brand">christopher dunne</p></div>
       <Header />
       <MainContent />
       <Footer />

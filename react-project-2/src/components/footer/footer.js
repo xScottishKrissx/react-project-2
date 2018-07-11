@@ -3,7 +3,11 @@ import './footer.css';
 
 export class Footer extends React.Component{
     render(){
-        return <h1>Footer</h1>
+        return(
+            <div className="footer-wrapper">
+                <h3>Footer</h3>
+            </div>    
+        )
     }
 }
 

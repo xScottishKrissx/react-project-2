@@ -14,7 +14,7 @@ export class MainContent extends React.Component{
     render(){
         return (
             <div className="main-wrapper">
-                <h1>Main Content</h1>
+                
 
             {/* <Switch> */}
                 <Route path="/home" component={Home} />
@@ -35,3 +35,4 @@ export class MainContent extends React.Component{
 }
 
 export default MainContent;
+

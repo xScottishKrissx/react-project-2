@@ -1,5 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h5,h5,li{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+p{
+  /* padding: 5px; */
+  text-align: left;
 }

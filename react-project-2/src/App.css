@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Monsieur+La+Doulaise');
+
 .App {
   text-align: center;
 }
@@ -21,6 +23,15 @@
 .App-intro {
   font-size: large;
 }
+
+
+.brand{
+  font-size: 5rem;
+  text-align: center;
+  font-family: Monsieur La Doulaise , sans-serif;
+}
+
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }

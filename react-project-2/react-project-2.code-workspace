@@ -1,0 +1,17 @@
+{
+    "settings": {
+        "cSpell.words": [
+            "carddataid",
+            "clickedid",
+            "currentdate",
+            "fooid",
+            "newcarddata",
+            "organising"
+        ]
+    },
+    "folders": [
+        {
+            "path": "src\\components\\home"
+        }
+    ]
+}

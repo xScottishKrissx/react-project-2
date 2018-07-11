@@ -1,0 +1,39 @@
+
+
+#nav-wrapper{
+    background-color: black;
+    
+    /* box-shadow: 0 0 0 1px black; */
+   
+}
+
+.primary-navbar{
+    /* background-color: black; */
+    max-width: 778px;
+    margin: 0 auto;
+}
+    .primary-navbar ul{
+        list-style-type: none;
+        display: flex;
+        /* margin: 0; */
+        padding-left: 0;
+    }
+        .primary-navbar ul li{
+            flex: 1;
+            /* font-family: Roboto, sans-serif; */
+            font-family: Nanum Gothic, sans-serif;
+            padding: 0.5rem;
+        }
+            .primary-navbar ul li a{
+                color: white;
+                font-size: large;
+                text-decoration: none;
+            }
+            .primary-navbar ul li:hover{
+                background-color: white;
+            }
+            .primary-navbar ul li:hover a{
+                color: black;
+                display: inline-block;
+                width: 100%;
+            }

@@ -8,16 +8,12 @@ import { Link } from 'react-router-dom';
 export class Header extends React.Component{
     render(){
         return (
-            <div>
-                <h2>Nav</h2>
-                <nav>
+            <div id="nav-wrapper">                
+                <nav className="primary-navbar">
                     <ul>
-
                         <li><Link to="/home">Home</Link></li>
                         <li><Link to="/feature">Feature</Link></li>
                         <li><Link to="/about">About</Link></li>
-                        
-
                     </ul>    
                 </nav>
 
