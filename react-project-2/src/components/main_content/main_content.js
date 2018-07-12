@@ -3,7 +3,7 @@ import './main_content.css';
 
 import Home from '../../components/home/home';
 
-import {Route} from 'react-router-dom';
+import {Route, Redirect, Switch} from 'react-router-dom';
 import  Feature from '../feature/feature';
 import  About from '../about/about';
 
@@ -15,16 +15,19 @@ export class MainContent extends React.Component{
         return (
             <div className="main-wrapper">
                 
-
-            {/* <Switch> */}
-                <Route path="/home" component={Home} />
-
+            <p>Hello</p>
+            <Switch>
+            
+                 <Redirect from="/home" to="/" /> 
+                 <Route exact path="/" component={Home} /> 
+                
+                
                 <Route path="/feature" component={Feature} />   
                 <Route path="/video" component={Video} />
                 <Route path="/slideshow" component={Slideshow} />
 
                 <Route path="/about" component={About} />
-            {/* </Switch> */}
+                </Switch>
 
 
             {/* <Route path="/video" component={Video} />

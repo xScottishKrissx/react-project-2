@@ -16,7 +16,7 @@ export class Home extends React.Component{
             day: 'numeric'
         }
        
-        console.log(currentdate.toLocaleDateString('en-GB',dateOptions));
+        console.log(currentdate.toLocaleDateString('en-GB',dateOptions)); 
         const myDate = currentdate.toLocaleDateString('en-GB',dateOptions)
         
         

@@ -1,19 +1,8 @@
 {
 	"folders": [
 		{
-			"path": "I:\\Xampp\\htdocs\\react-project-2"
-		},
-		{
-			"path": "I:\\Xampp\\htdocs\\my-first-solo-react-app\\myfirstsoloapp"
+			"path": "react-project-2"
 		}
 	],
-	"settings": {
-		"cSpell.words": [
-			"carddataid",
-			"clickedid",
-			"fooid",
-			"newcarddata",
-			"organising"
-		]
-	}
+	"settings": {}
 }
