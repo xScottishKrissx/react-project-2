@@ -14,8 +14,8 @@
 .card{
     /* border: 5px solid black; */
     background-color: white;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    /* border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem; */
     box-shadow: 0 16px 16px -2px #bfbfbf;
 
     display: inline-block;
@@ -48,7 +48,7 @@
     /* width: 50%; */
 }
 
-.title, .text, .postInfo{padding-left: 1rem; padding-right: 1rem; width: 90%;}
+.title, .text, {padding-left: 1rem; padding-right: 1rem; width: 90%;}
 
 .title{
     color: #333;
@@ -70,7 +70,7 @@
     display: flex; 
     padding-bottom: 1rem; 
     position: absolute;
-    width: 100%;
+    width: 90%;
 }
 
     .author{display: inline; width: 69%;}

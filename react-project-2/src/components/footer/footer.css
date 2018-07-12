@@ -1,8 +1,40 @@
 .footer-wrapper{
     background-color: black;
     color: white;
-    height: 10rem;
+    /* display: inline-flex; */
+    text-align: center;
+    height: auto;
+    margin-top: 5rem;
     /* bottom: 0;
     position: absolute; */
     width: 100%;
 }
+
+    .footer-wrapper .im-a-lazy-dev{
+        display: inline-flex;
+        margin: 0 auto;
+        text-align: left;
+        width: 918px;
+    }
+
+    .footer-wrapper .im-a-lazy-dev .col{
+        display: flex;
+        min-width: 33%;
+    }
+
+    .footer-wrapper .im-a-lazy-dev .col ul{
+        list-style-type: none;
+    }
+
+    .footer-brand{
+        
+
+    }
+        .footer-brand .brand{
+            /* border: 1px solid red; */
+            color: white;
+            font-size: 2rem;
+            margin: 0 auto;
+            padding-top: 1rem;
+        
+        }

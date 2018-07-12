@@ -15,7 +15,7 @@ export class MainContent extends React.Component{
         return (
             <div className="main-wrapper">
                 
-            <p>Hello</p>
+            
             <Switch>
             
                  <Redirect from="/home" to="/" /> 
@@ -38,4 +38,3 @@ export class MainContent extends React.Component{
 }
 
 export default MainContent;
-

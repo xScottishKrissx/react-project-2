@@ -9,7 +9,7 @@
 
 .primary-navbar{
     /* background-color: black; */
-    max-width: 778px;
+    max-width: 918px;
     margin: 0 auto;
 }
     .primary-navbar ul{
@@ -17,6 +17,10 @@
         display: flex;
         /* margin: 0; */
         padding-left: 0;
+    }
+
+    .primary-navbar ul:hover{
+        cursor: pointer;
     }
         .primary-navbar ul li{
             flex: 1;

@@ -1,7 +1,38 @@
 
-Todo: 
-  ☐ @started(18-07-12 14:06)
-    ☐ Prevent Date from being rendered every time the home button is clicked 
+'Cmd/Ctrl+Enter' // Triggers `Todo: Toggle Box`
+'Alt+D' // Triggers `Todo: Toggle Done`
+'Alt+C' // Triggers `Todo: Toggle Cancelled`
+'Alt+S' // Triggers `Todo: Toggle Start`
+'Cmd/Ctrl+Shift+A' // Triggers  `Todo: Archive`
+
+Todo:
+  ☐ General Fixes
+    ✔ The site jumps when moving between pages which I think is due to the browser adding the scroll bar to the page @started(18-07-12 17:25) @done(18-07-12 17:29) @lasted(4m22s)
+      Yup, that was the issue.
+    ☐ Add a scroll to top button @started(18-07-12 17:25)
+
+  ☐ Home Page
+    ☐ Prevent Date from being rendered every time the home button is clicked @started(18-07-12 17:25)
+      
+    ✔ Footer @started(18-07-12 15:24) @done(18-07-12 17:16) @lasted(1h52m33s)
+      ✔ Add Content @done(18-07-12 16:18)
+      ✔ Add B&W icons to 3rd footer column
+    ☐ Add Full width component to Home page somewhere preferabbly between the first and second row of cards @started(18-07-12 17:25)
+    ✔ Add Slideshow / Full Width Image to home page @done(18-07-12 17:16)
+      ✔ Make slideshow its own component @started(18-07-12 17:17) @done(18-07-12 17:23) @lasted(6m54s)
+      ☐ The Carousel html can probably be made a lot more programatic than it currently is. @started(18-07-12 17:25)
+      ☐ The Carousel caption needs to be prettied up. @started(18-07-12 17:26)
+      ☐ Make carousel the correct width to line up with the rest of the page @started(18-07-12 17:27)
+      ☐ See if you can change the carousel animation to have them slide in rather than fade in and out. @started(18-07-12 17:28)
+      ☐ Clean up carousel controls @started(18-07-12 17:30)
+
+  ☐ Feature page
+    ☐ Do a large gallery of images rather than a slideshow @started(18-07-12 17:26)
+    ☐ Make one or the other the default @started(18-07-12 17:25)
   
+  ☐ About page
+    ☐ A Big Image to the left with text in a column on the right, maybe something like a cv/portfolio page. @started(18-07-12 17:25)
+
    
  
+Archive:
