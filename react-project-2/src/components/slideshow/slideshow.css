@@ -1,7 +1,43 @@
 .gallery-6{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: inline-flex;
     margin: 5px;
     width: 250px;
-    height: 250px;
+    height: 200px;
 }
+.gallery-6-new{
+    /* border: 5px solid black; */
+    display: inline-flex;
+    margin: 5px;
+    width: 250px;
+    height: 200px;
+}
+
+    .gallery-item{
+        background-size: auto;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+    .caption-wrapper{
+        /* border: 1px solid black; */
+        height: 100%;
+        position: relative;
+        width: 100%;
+
+
+    }
+        .caption-wrapper span{
+            background-color: black;      
+            /* border: 1px solid black; */
+            border-top: 1px solid white;
+            bottom: 0;
+            color: white;
+            font-size:2rem;
+            left: 0;
+            height: auto;
+            padding-left: 1rem;
+            position: absolute;
+            text-align: left;
+            width: 93%;
+        }

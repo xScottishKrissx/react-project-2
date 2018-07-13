@@ -9,7 +9,12 @@ Todo:
   ☐ General Fixes
     ✔ The site jumps when moving between pages which I think is due to the browser adding the scroll bar to the page @started(18-07-12 17:25) @done(18-07-12 17:29) @lasted(4m22s)
       Yup, that was the issue.
-    ☐ Add a scroll to top button @started(18-07-12 17:25)
+    ✔ Add a scroll to top button @started(18-07-12 17:25) @done(18-07-13 17:56) @lasted(1d31m14s)
+      ☐ Move scroll to top button to its own component and add it to the whole site @started(18-07-13 17:56)
+        ☐ See of you can make it a stateless functional component @started(18-07-13 17:57)
+      ☐ Sometimes the main nav buttons have to be clicked twice to work properly. I haven't been able to replicate this consistantly but it does happen @started(18-07-13 18:03)
+      ☐ I am mainly designing the website for 918px but I do want to make the website responsive
+
 
   ☐ Home Page
     ☐ Prevent Date from being rendered every time the home button is clicked @started(18-07-12 17:25)
@@ -27,12 +32,19 @@ Todo:
       ☐ Clean up carousel controls @started(18-07-12 17:30)
 
   ☐ Feature page
-    ☐ Do a large gallery of images rather than a slideshow @started(18-07-12 17:26)
-    ☐ Make one or the other the default @started(18-07-12 17:25)
+    ✔ Do a large gallery of images rather than a slideshow @started(18-07-12 17:26) @done(18-07-13 14:00) @lasted(20h34m56s)
+    ✔ Fill out gallery with content @done(18-07-13 16:48)
+      ✔ Content should include random images @done(18-07-13 16:48)
+    ✔ Make one or the other the default @started(18-07-12 17:25) @done(18-07-13 18:00) @lasted(1d35m52s)
+    ☐ Change any instance of "slideshow" to "gallery" @started(18-07-13 18:01)
+    ☐ I Should expand the routes to include pages within the gallery items @started(18-07-13 17:28)
+      ☐ For example you click on a square and it takes you to a dedicated page. @started(18-07-13 17:27)
+    ☐ I like the idea of changing the gallery size on the click of a button but I think that would require the use of state which would in turn require changing the component.
+    
+    
   
   ☐ About page
     ☐ A Big Image to the left with text in a column on the right, maybe something like a cv/portfolio page. @started(18-07-12 17:25)
-
    
  
 Archive:

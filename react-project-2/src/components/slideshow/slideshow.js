@@ -6,20 +6,27 @@ import {Link} from 'react-router-dom';
 import GalleryData from './gallery-data';
 
 export class Slideshow extends React.Component{
+    
+    goHome(){
+        window.scroll({
+            top: 0,
+            behavior:'smooth'
+        });
+    };
+    
     render(){
 
         
 
 
 
-        
 
         // times (3)(() => console.log('hi'))
         return (
             <div>
-                <h1>Slideshow</h1>
+                <h1>Gallery</h1>
                 {/* <NewGallery id="1"/> */}
-                
+                <li><Link to='/video'>Show Video</Link></li>
                 <GalleryLoop />
 
                 {/* <div className="gallery-6">Gallery-6</div>
@@ -38,7 +45,8 @@ export class Slideshow extends React.Component{
                 <div className="gallery-6">Gallery-6</div>
                 <div className="gallery-6">Gallery-6</div> */}
                 
-                <li><Link to='/video'>Show Video</Link></li>
+                <button className="scrollToTopBtn" onClick={this.goHome}>To the Top!!</button>
+                
                 
             </div>
         )
@@ -59,15 +67,15 @@ export class Slideshow extends React.Component{
 // ... maybe i could combine the map with the loop.
 // ... that seemed to work ok. Now to style it
 
-    const GalleryLoop = (title) => {
-        let i;
-        let thing = [];
-        for(i = 0; i< 9; i++){
-            // thing.push( <div key={i} id={i} className="gallery-6">Gallery-6</div> )
-            thing.push(<NewGallery id={i} key={i}/>)
-        }
-        return thing;
+const GalleryLoop = (title) => {
+    let i;
+    let thing = [];
+    for(i = 0; i< 9; i++){
+        // thing.push( <div key={i} id={i} className="gallery-6">Gallery-6</div> )
+        thing.push(<NewGallery id={i} key={i}/>)
     }
+    return thing;
+}
 
 
 const NewGallery = (props) => {
@@ -77,9 +85,18 @@ const NewGallery = (props) => {
     a.push(s);
 
     const gallery = a.map(arraymap => {
+        const imgUrl = "https://unsplash.it/500/200?random=" + arraymap.id;
+        const style = {
+            backgroundImage: 'url(' + imgUrl + ')'
+        }
+
         return (
-            <div key={arraymap.id}>
-                <div >Gallery-6</div>
+            <div className="gallery-item" style={style} id={arraymap.id} key={arraymap.id}>
+                {/* <div >Gallery-6</div> */}
+                   <div className="caption-wrapper">
+                        <span>Caption</span>
+                   </div>
+                {/* <GetRandomHeaderImage id={arraymap.id} /> */}
             </div>
         )
     })
@@ -89,6 +106,10 @@ const NewGallery = (props) => {
             </div>
     );
 }
+
+// const GetRandomHeaderImage = ({id}) => {
+//     return <img src={"https://unsplash.it/500/200?random=" + id} alt="random_image" />;
+// }
 
 
 export default Slideshow;

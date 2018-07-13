@@ -16,18 +16,20 @@ export class MainContent extends React.Component{
             <div className="main-wrapper">
                 
             
-            <Switch>
-            
+            <Switch>            
                  <Redirect from="/home" to="/" /> 
                  <Route exact path="/" component={Home} /> 
-                
-                
+            </Switch> 
+            
+            <Switch>
+                <Redirect from="/feature" to="/slideshow" />
                 <Route path="/feature" component={Feature} />   
                 <Route path="/video" component={Video} />
                 <Route path="/slideshow" component={Slideshow} />
+            </Switch>
 
                 <Route path="/about" component={About} />
-                </Switch>
+                
 
 
             {/* <Route path="/video" component={Video} />

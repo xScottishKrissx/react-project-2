@@ -87,6 +87,6 @@ const GetTodaysDate = () =>{
     const myDate = currentdate.toLocaleDateString('en-GB',dateOptions);
 
 
-    return myDate;
+    return "brand new for " + myDate;
     // return {myDate} is wrong.
 }
