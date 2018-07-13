@@ -13,8 +13,9 @@
     .footer-wrapper .im-a-lazy-dev{
         display: inline-flex;
         margin: 0 auto;
+        max-width: 918px;
         text-align: left;
-        width: 918px;
+        width: 100%;
     }
 
     .footer-wrapper .im-a-lazy-dev .col{
