@@ -1,5 +1,7 @@
 import React from 'react';
 import './footer.css';
+import ScrollToTopBtn from '../scroll-top-btn/scroll-to-top-btn';
+// import {ScrollTopBtn} from '../scroll-top-btn/scroll-to-top-btn';
 
 export class Footer extends React.Component{
     render(){
@@ -26,6 +28,8 @@ export class Footer extends React.Component{
                    </ul>
                 </div>
                 </div>
+                <ScrollToTopBtn />
+                {/* <ScrollTopBtn /> */}
             </div>    
         )
     }

@@ -23,21 +23,25 @@
         cursor: pointer;
     }
         .primary-navbar ul li{
+            display: table;
             flex: 1;
             /* font-family: Roboto, sans-serif; */
             font-family: Nanum Gothic, sans-serif;
-            padding: 0.5rem;
+            height: 3rem;
+            /* padding: 0.5rem; */
         }
             .primary-navbar ul li a{
                 color: white;
+                display: table-cell;
                 font-size: large;
                 text-decoration: none;
+                vertical-align: middle;
             }
             .primary-navbar ul li:hover{
                 background-color: white;
             }
             .primary-navbar ul li:hover a{
                 color: black;
-                display: inline-block;
+                /* display: inline-block; */
                 width: 100%;
             }

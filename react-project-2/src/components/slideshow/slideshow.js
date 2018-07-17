@@ -5,14 +5,11 @@ import {Link} from 'react-router-dom';
 
 import GalleryData from './gallery-data';
 
+
+
 export class Slideshow extends React.Component{
     
-    goHome(){
-        window.scroll({
-            top: 0,
-            behavior:'smooth'
-        });
-    };
+
     
     render(){
 
@@ -45,7 +42,8 @@ export class Slideshow extends React.Component{
                 <div className="gallery-6">Gallery-6</div>
                 <div className="gallery-6">Gallery-6</div> */}
                 
-                <button className="scrollToTopBtn" onClick={this.goHome}>To the Top!!</button>
+               
+                {/* <button className="scrollToTopBtn" onClick={this.goHome}>To the Top!!</button> */}
                 
                 
             </div>

@@ -1,0 +1,56 @@
+.about-wrapper{
+    display: inline-flex;
+    width: 100%;
+}
+
+    .col{
+        /* border: 1px solid red; */
+    }
+
+    .bio{
+        flex: 1;
+        /* width: 75%; */
+    }
+        #photo{
+            border: 1px solid black;
+            height: 20rem;
+            margin: 1rem;
+        }
+        #mini-bio{
+            border: 1px solid black;
+            height: 20rem;
+            margin: 2rem;
+        }
+
+
+
+
+
+    .detailed-history{
+        /* width: 25%; */
+        flex: 1 0 25%;
+    }
+
+        .row{
+            border: 1px solid black;
+            margin: 1rem;
+            text-align: left;
+        }
+        .row h2{
+            background-color: black;
+            color: white;
+            margin-top: 0;
+        }
+        .row p{
+            color: black;
+            font-family: 'Roboto Slab';
+        }
+
+        .sub-header{
+            padding-left: 1rem;
+            
+        }
+        .detailed-paragraph{
+
+            padding-left: 1rem;
+        }
