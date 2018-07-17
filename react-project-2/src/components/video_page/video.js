@@ -8,9 +8,23 @@ import { Link } from 'react-router-dom';
 export class Video extends React.Component{
     render(){
         return (
-            <div>               
-                <h1>Video</h1>
-                <li><Link to='/slideshow'>Show Slideshow</Link></li>
+            <div className="video-page-wrapper">               
+               
+                <li><Link to='/slideshow'>Show Gallery</Link></li>
+
+                <div className="video-container">
+                    "Video Goes Here"
+                </div>
+
+                <div className='video-description'>
+
+                <h2>Title</h2>
+                <p>Description :</p>
+                <p>Posted :</p>
+                <p>Runtime :</p>
+                <p>Tags :</p>
+                </div>
+               
             </div>
         )
     }

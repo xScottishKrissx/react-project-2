@@ -5,39 +5,43 @@ export class About extends React.Component{
     render(){
         return(
             <div className="about-wrapper">
-                <div className="col bio">
 
-                    <div id="photo">Photo</div>
-                    <div id="mini-bio">Mini Bio</div>
-                
+                <div className='about-title'><h1>Page Title</h1></div>
+
+                <div className='column-wrapper'>
+                    <div className="col bio">
+                        <div id="photo">Photo</div>
+                        <div id="mini-bio">Mini Bio</div>
+                    </div>
+
+                    <div className="col detailed-history">
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+                        <DetailedHistoryRow />
+                    </div>
+
                 </div>
-                <div className="col detailed-history">
 
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-                    <DetailedHistoryRow />
-                
-                </div>
                 
             </div>
         )

@@ -1,0 +1,13 @@
+.video-page-wrapper{
+    /* border: 1px solid; */
+
+}
+
+    .video-container{
+        /* border: 1px solid red; */
+        background-color: black;
+        color: white;
+        height: 400px;
+        margin: 2rem 0 2rem 0;
+        /* margin-bottom: 1rem; */
+    }

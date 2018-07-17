@@ -46,7 +46,8 @@ Todo:
     ☐ I Should expand the routes to include pages within the gallery items @started(18-07-13 17:28)
       ☐ For example you click on a square and it takes you to a dedicated page. @started(18-07-13 17:27)
     ☐ I like the idea of changing the gallery size on the click of a button but I think that would require the use of state which would in turn require changing the component.
-    ☐ Add a content to the video page @started(18-07-17 12:52)
+    ✔ Add content to the video page @started(18-07-17 12:52) @done(18-07-17 15:38) @lasted(2h46m46s)
+      ☐ Format Video Description area @started(18-07-17 15:39)
     
   
   ☐ About page

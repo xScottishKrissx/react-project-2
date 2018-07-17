@@ -1,4 +1,20 @@
 .about-wrapper{
+
+}
+
+.about-title{
+    background-color: black;
+    /* border-left: 1rem solid #454a47; */
+    color: white;
+    margin: 1rem;
+    padding: 10px 0px 10px 10px;
+    text-align: left;
+}
+
+.about-title h1{
+    margin: 0;
+}
+.column-wrapper{
     display: inline-flex;
     width: 100%;
 }
@@ -19,7 +35,7 @@
         #mini-bio{
             border: 1px solid black;
             height: 20rem;
-            margin: 2rem;
+            margin: 1rem;
         }
 
 
