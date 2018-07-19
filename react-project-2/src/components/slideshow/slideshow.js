@@ -80,14 +80,15 @@ const NewGallery = (props) => {
     const gallery = a.map(arraymap => {
         const imgUrl = "https://unsplash.it/500/200?random=" + arraymap.id;
         const style = {
-            backgroundImage: 'url(' + imgUrl + ')'
+            backgroundImage: 'url(' + imgUrl + ')',
+            backgroundPosition: "bottom",
+            backgroundRepeat: "no-repeat",
         }
 
         return (
             <div className="gallery-item" style={style} id={arraymap.id} key={arraymap.id}>
                 {/* <div >Gallery-6</div> */}
-                   <div className="caption-wrapper">
-                        <span>{arraymap.title}</span>
+
                         <Link 
                             to={{
                                 pathname: '/gallery-sub-page',
@@ -98,14 +99,18 @@ const NewGallery = (props) => {
                                     pageAuthor: arraymap.author,
                                     pageLikes: arraymap.likes,
                                     pageDislikes: arraymap.dislikes,
-                                    postDate: arraymap.postdate
+                                    postDate: arraymap.postdate,
+                                    pageImage: style
 
                                 }
                             }}>
-                        
-                                More...
+                            
+                        <div className="caption-wrapper">
+                            <span>{arraymap.title}</span>
+                        </div> 
+
                         </Link>
-                   </div>
+                   
                 {/* <GetRandomHeaderImage id={arraymap.id} /> */}
             </div>
         )

@@ -2,10 +2,37 @@
 
 }
 
-    .gallery-sub-page-wrapper h1{
-
+    .gallery-sub-page-wrapper li{
+        margin-bottom: 2rem;
+        text-align: left;
     }
 
-    .gallery-sub-page-wrapper p{
+    .sub-page-text{
         padding: 1rem;
     }
+    .gallery-sub-page-wrapper > h1{
+        background-color: black;
+        color: white;
+    }
+
+        .sub-page-header{
+            background-size: cover;
+            margin: -1.4rem;
+            min-height: 18rem;
+        }
+
+        .sub-page-content{
+            margin: 0 auto;
+            padding: 0;
+            width: 400px;
+        }
+        .sub-page-text{
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .sub-page-score{
+            /* padding-bottom: 0; */
+            /* padding-top:0; */
+            margin: 0; 
+        }

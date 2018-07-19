@@ -8,25 +8,32 @@ class GallerySubPage extends React.Component{
     //      console.log(test);
     // }
     render(){
-        const pageId = this.props.location.state.pageId;
+        // const pageId = this.props.location.state.pageId;
         const pageText = this.props.location.state.pageText;
         
         const pageTitle = this.props.location.state.pageTitle;
         const pageAuthor = this.props.location.state.pageAuthor;
         const pageLikes = this.props.location.state.pageLikes;
         const pageDislikes = this.props.location.state.pageDislikes;
-        const pageDate = this.props.location.state.pageDate;
-
+        // const pageDate = this.props.location.state.pageDate;
+        const style = this.props.location.state.pageImage;
 
         return(
             <div className="gallery-sub-page-wrapper">
-                <h1>Gallery-Sub-Page</h1>
-                <li><Link to='/slideshow'>go back...</Link></li>
+            <li><Link to='/slideshow'>go back...</Link></li>
+                <div className="sub-page-header" style={style}>
+                   
+                </div>
                 <h1>{pageTitle}</h1>
-                <h3>posted by {pageAuthor}</h3>
-                <span>posted {pageDate}</span>
-                <p>{pageText}</p>
-                <p> {pageLikes} | {pageDislikes} </p>
+
+                <div className="sub-page-content"> 
+                    
+                    <h3>posted by {pageAuthor}</h3>
+                    {/* <span>posted {pageDate}</span> */}
+                    <p className="sub-page-text">{pageText}</p>
+                    <p className="sub-page-score"> Likes: {pageLikes} </p>
+                    <p className="sub-page-score"> Dislikes: {pageDislikes} </p>
+                </div>
             </div>
         )
     }
