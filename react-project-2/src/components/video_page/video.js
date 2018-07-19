@@ -10,6 +10,7 @@ export class Video extends React.Component{
         return (
             <div className="video-page-wrapper">               
                
+               <h1>Video</h1>
                 <li><Link to='/slideshow'>Show Gallery</Link></li>
 
                 <div className="video-container">

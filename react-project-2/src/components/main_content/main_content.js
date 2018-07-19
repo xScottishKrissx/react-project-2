@@ -9,6 +9,7 @@ import  About from '../about/about';
 
 import Video  from '../../components/video_page/video';
 import Slideshow  from '../../components/slideshow/slideshow';
+import GallerySubPage from '../../components/slideshow/gallery-sub-page';
 
 export class MainContent extends React.Component{
     render(){
@@ -28,7 +29,9 @@ export class MainContent extends React.Component{
                 <Route path="/slideshow" component={Slideshow} />
             </Switch>
 
-                <Route path="/about" component={About} />
+            <Route path="/gallery-sub-page" component={GallerySubPage} />
+
+            <Route path="/about" component={About} />
                 
 
 

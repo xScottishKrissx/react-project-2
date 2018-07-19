@@ -7,6 +7,7 @@
         margin:0 auto;
       }
       .carousel-item{
+        
         position:absolute;
         top:0;
         bottom:0;
@@ -16,6 +17,26 @@
         opacity:0;
         transition: all 0.5s ease-in-out;
       }
+
+      .carousel-caption{
+        background-color: black;
+        /* border: 1px solid; */
+        color: white;
+        /* padding: 1rem; */
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+
+      }
+      .carousel-caption p, .carousel-caption h2{        
+        padding-left: 5rem;
+        padding-right: 10rem;
+        text-align: left;
+      }
+
+  
+
       .arrow{
         position:absolute;
         top:0;
@@ -24,6 +45,9 @@
         height:100%;
         -webkit-tap-highlight-color: rgba(0,0,0,0);
         background: url("http://dancort.es/assets/img/css-carousel/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
+      }
+      .arrow span{
+        visibility: hidden;
       }
       
       .arrow-prev{
@@ -58,14 +82,17 @@
           opacity: 1;
         background:url('https://static.pexels.com/photos/6526/sea-beach-holiday-vacation-large.jpg');
         background-size:cover;
+        background-position: bottom;
         }
       .item-2{
         background:url('https://static.pexels.com/photos/6506/alcohol-bar-drinks-party-large.jpg');
          background-size:cover;
+         background-position: bottom;
       }
       .item-3{
         background:url('https://static.pexels.com/photos/6529/lake-kajak-kayak-large.jpg');
          background-size:cover;
+         background-position: bottom;
       }
       
       *:target ~ .item-1 {

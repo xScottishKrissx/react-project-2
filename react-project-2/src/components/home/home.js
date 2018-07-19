@@ -60,10 +60,10 @@ export class Home extends React.Component{
     componentDidMount(){
         const getthing = document.getElementById('test').innerHTML;
         if(getthing != null){
-            console.log("not empty")
+            // console.log("not empty")
             this.setState ({timeExists:true})
         }else{
-            console.log("empty");
+            // console.log("empty");
         }
         
     }
@@ -83,7 +83,7 @@ const GetTodaysDate = () =>{
         day: 'numeric'
     }
    
-    console.log(currentdate.toLocaleDateString('en-GB',dateOptions)); 
+    // console.log(currentdate.toLocaleDateString('en-GB',dateOptions)); 
     const myDate = currentdate.toLocaleDateString('en-GB',dateOptions);
 
 

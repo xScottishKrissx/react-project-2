@@ -13,11 +13,6 @@ export class Slideshow extends React.Component{
     
     render(){
 
-        
-
-
-
-
         // times (3)(() => console.log('hi'))
         return (
             <div>
@@ -92,7 +87,24 @@ const NewGallery = (props) => {
             <div className="gallery-item" style={style} id={arraymap.id} key={arraymap.id}>
                 {/* <div >Gallery-6</div> */}
                    <div className="caption-wrapper">
-                        <span>Caption</span>
+                        <span>{arraymap.title}</span>
+                        <Link 
+                            to={{
+                                pathname: '/gallery-sub-page',
+                                state: {
+                                    pageId: arraymap.id,
+                                    pageTitle: arraymap.title,
+                                    pageText: arraymap.text,
+                                    pageAuthor: arraymap.author,
+                                    pageLikes: arraymap.likes,
+                                    pageDislikes: arraymap.dislikes,
+                                    postDate: arraymap.postdate
+
+                                }
+                            }}>
+                        
+                                More...
+                        </Link>
                    </div>
                 {/* <GetRandomHeaderImage id={arraymap.id} /> */}
             </div>

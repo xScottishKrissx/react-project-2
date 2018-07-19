@@ -10,8 +10,20 @@ export class ScrollToTopBtn extends React.Component{
         });
     };
 
+    // componentDidMount(){
+    //     const body = document.body;
+    //     const html = document.documentElement;
+    //     const height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+    //     console.log(height);
+
+
+    //     const btnLocation = document.getElementById('scrollBtn');
+    //     console.log(btnLocation.scrollHeight);
+    // }
     render(){
-        return <button className="scroll-to-top-btn" onClick={this.goHome}>To the Top!!</button>;
+
+
+        return <button id="scrollBtn" className="scroll-to-top-btn" onClick={this.goHome}>To the Top!!</button>;
     }
 }
 // const f = window.scroll({top:0, behavior:'smooth'})
